@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/marks"
+        android:text="%d/%d"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#e5ff00"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CT1"
+        android:id="@+id/exam_name"
+        android:layout_below="@+id/marks"
+        android:layout_marginTop="-4dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"/>
+</RelativeLayout>
